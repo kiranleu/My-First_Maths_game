@@ -1,0 +1,135 @@
+body{
+    background-image: url("maths1.jpg");
+    background-repeat: repeat;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+    
+}
+/*---------------------------Header----------------------------------------*/
+.title{
+     font-family: 'Nanum Brush Script', cursive;
+     font-size:100px;
+     font-weight: bolder;
+     background-color: white;
+     text-align: center;
+       border-radius: 30px;
+       word-spacing: 10px;
+       
+     
+}
+
+.subtitle{
+    font-family: 'Fredoka One', cursive;
+    font-size: 80px;
+    font-weight: lighter;
+    text-align:center;
+    background-color: lightblue;
+    transform: rotate(10deg);
+    border-radius: 30px;
+    
+}
+
+.title, .subtitle{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/*----------------------------Buttons-----------------------------------------*/
+
+
+.button{
+    display: inline-block;
+    /*padding: 3em;*/
+    /*background-color: lightgrey;*/
+    text-decoration: none;
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 150%;
+    /*color: white;*/
+    text-align: center;
+    border-radius: 25px;
+    width: 220px;
+    height: 1px;
+    
+}
+
+    
+#btn1{
+    background-color: mediumturquoise;
+    border-radius: 10px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    
+    
+}
+
+#btn2{
+    background:#E6E6FA;
+    border-radius: 10px;
+    font-family: 'Fredoka One', cursive;
+     font-size: 20px;
+}
+ #btn3 {
+    background-color: #FFC0CB;
+    border-radius: 10px;
+    font-family: 'Fredoka One', cursive;
+     font-size: 20px;
+}
+
+/*----------------------------form-----------------------------------------*/
+.operations{
+    width: 80rem;
+    background-color: lightyellow;
+    
+    
+}
+.p1 {
+    font-family: 'Nanum Brush Script', cursive;
+    color: mediumturquoise;
+    background-color: #E6E6FA;
+    font-size:60px;
+    /*padding-left: 25px;*/
+    text-align: center;
+    border-radius: 360px
+}
+
+#question, .p2 {
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
+    color:black ;
+    font-size: xx-large;
+    background:mediumturquoise ;
+    border-radius: 10px;
+    
+    
+}
+    
+.input1{
+    border-radius: 10px;
+    background-color: white;
+}
+
+/*---------------------Footer---------------------------*/
+#div1 {
+  font-size:148px
+ 
+ 
+}
+
+
+.footerparagraph{
+    font-family: 'Nanum Brush Script', cursive;
+     font-size: 60px;
+     font-weight: bolder;
+     background-color: white;
+     text-align: center;
+     border-radius: 30px;
+     width:120%;
+     height: 100%;
+     
+       
+}
+
+.smiley{
+    width: 10px;
+}
