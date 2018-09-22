@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-    <link rel="stylesheet" href="mathsgame.css" type="text/css" />
+    <link rel="stylesheet" href="css/mathsgame.css" type="text/css" />
     <link rel="stylesheet" href="mathgame.js" type="text/css" />
-    <link href="hover.css" rel="stylesheet" type="text/css" />
+    <link href="css/hover.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -30,7 +30,9 @@
                     </hr>
 
                     <p>
-                        <h3 class="subtitle"> Let's play!</h3>
+                        <h3 class="subtitle">
+                            Let's play!
+                        </h3>
                     </p>
 
                 </div>
@@ -53,13 +55,16 @@
             <div class="col-sm-3">
 
 
-                <button class="hvr-buzz-out" id="btn1" type="button" class="btn btn-outline-secondary" onclick="setAdditionGame()">    Addition   </button> &nbsp;
+                <button class="hvr-buzz-out" id="btn1" type="button" class="btn btn-outline-secondary" onclick="setAdditionGame()">    Addition   </button>
+                &nbsp;
             </div>
             <div class="col-sm-4">
-                <button class="hvr-buzz-out" id="btn2" type="button" class="btn btn-outline-secondary" onclick="setSubtractionGame()" class="button">Subtraction</button> &nbsp;
+                <button class="hvr-buzz-out" id="btn2" type="button" class="btn btn-outline-secondary" onclick="setSubtractionGame()" class="button">Subtraction</button>
+                &nbsp;
             </div>
             <div class="col-sm-4">
-                <button class="hvr-buzz-out" id="btn3" type="button" class="btn btn-outline-secondary" onclick="setMultiplicationGame()" class="button">Multiplication</button> &nbsp;
+                <button class="hvr-buzz-out" id="btn3" type="button" class="btn btn-outline-secondary" onclick="setMultiplicationGame()" class="button">Multiplication</button>
+                &nbsp;
             </div>
         </div>
     </div>
@@ -69,7 +74,7 @@
         <div class="row" class="center">
             <div class="col-sm-8" "col-md-8-center">
                 <p class="p1">Your score is: <span id="score">0</span></p>
-
+                
                 <p class="p2" id="question">
 
                 </p>
@@ -78,7 +83,7 @@
 
 
                 <form class="p2" id="myForm" name="answerForm" onsubmit="checkAnswer(); return false;" action="#" data-gametype="addition">
-                  
+                   
 
 
                     <p>Enter answer:<input type="number" name="answer">
@@ -100,7 +105,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-3">
                         <div id="div1" class="fa"></div>
 
                     </div>
@@ -110,7 +115,7 @@
 
             </div>
 
-            <div id="div1" class="fa"></div>
+          
 
 
 

@@ -1,9 +1,8 @@
 body{
-    background-image: url("images/maths1.jpg");
+    background-image: url("maths1.jpg");
     background-repeat: repeat;
     padding-left: 150px;
     padding-right: 150px;
-    
     
 }
 /*---------------------------Header----------------------------------------*/
@@ -31,8 +30,8 @@ body{
 }
 
 .title, .subtitle{
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 /*----------------------------Buttons-----------------------------------------*/
