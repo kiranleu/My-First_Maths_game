@@ -52,19 +52,17 @@
         <div class="row">
 
             &nbsp;
-            <div class="col-sm-3">
-
-
+            <div class="col-sm-2">
                 <button class="hvr-buzz-out" id="btn1" type="button" class="btn btn-outline-secondary" onclick="setAdditionGame()">    Addition   </button>
-                &nbsp;
             </div>
-            <div class="col-sm-4">
-                <button class="hvr-buzz-out" id="btn2" type="button" class="btn btn-outline-secondary" onclick="setSubtractionGame()" class="button">Subtraction</button>
-                &nbsp;
+            <div class="col-sm-2">
+                <button class="hvr-buzz-out" id="btn2" type="button" class="btn btn-outline-secondary" onclick="setSubtractionGame()" class="button">Subtraction</button> &nbsp;
             </div>
-            <div class="col-sm-4">
-                <button class="hvr-buzz-out" id="btn3" type="button" class="btn btn-outline-secondary" onclick="setMultiplicationGame()" class="button">Multiplication</button>
-                &nbsp;
+            <div class="col-sm-2">
+                <button class="hvr-buzz-out" id="btn3" type="button" class="btn btn-outline-secondary" onclick="setMultiplicationGame()" class="button">Multiplication</button> &nbsp;
+            </div>
+            <div class="col-sm-2">
+                <button class="hvr-buzz-out" id="btn1" type="button" class="btn btn-outline-secondary" onclick="setDivisionGame()">    Division   </button> &nbsp;
             </div>
         </div>
     </div>
@@ -72,9 +70,9 @@
     &nbsp;
     <div class="container-center" class="operations">
         <div class="row" class="center">
-            <div class="col-sm-8" "col-md-8-center">
+            <div class="col-sm-8" "col-md-8">
                 <p class="p1">Your score is: <span id="score">0</span></p>
-                
+
                 <p class="p2" id="question">
 
                 </p>
@@ -83,10 +81,11 @@
 
 
                 <form class="p2" id="myForm" name="answerForm" onsubmit="checkAnswer(); return false;" action="#" data-gametype="addition">
-                   
 
 
-                    <p>Enter answer:<input type="number" name="answer">
+
+                    <p>Enter answer:
+                        <input type="number" name="answer">
                         <input type="hidden" name="rightAnswer">
                         <input class="input1" type="submit" value="submit"></p>
 
@@ -100,8 +99,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-8">
-                    <p class="footerparagraph">You are amazing at it!!
-                    </p>
+                    <p class="footerparagraph">You are amazing     
+                    </br>
+                      at it!! 
+                      </p>
                 </div>
 
                 <div class="row">
@@ -115,7 +116,7 @@
 
             </div>
 
-          
+
 
 
 
